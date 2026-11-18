@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohd. Maruf Mostafa - Digital Contact Card</title>
+    <title>Md Mehedi Hasan - Digital Contact Card</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome Icons -->
@@ -44,7 +44,7 @@
             <div class="relative mb-5 group">
                 <img 
                     src="https://placehold.co/150x150/1e293b/ffffff?text=MMM" 
-                    alt="Mohd. Maruf Mostafa" 
+                    alt="Md Mehedi Hasan" 
                     class="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover shadow-md border-2 border-white ring-2 ring-slate-100"
                     onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Mohd+Maruf+Mostafa&background=0D8ABC&color=fff&size=128';"
                 />
@@ -52,7 +52,7 @@
             
             <!-- Name & Title -->
             <h1 class="text-2xl sm:text-[26px] font-semibold text-slate-800 tracking-tight leading-snug">
-                Mohd. Maruf Mostafa
+                Md Mehedi Hasan
             </h1>
             <p class="text-sm text-slate-500 font-medium mt-1">
                 IT Specialist
@@ -181,9 +181,9 @@
             const vCardData = [
                 'BEGIN:VCARD',
                 'VERSION:3.0',
-                'N:Mostafa;Mohd. Maruf;;;',
-                'FN:Mohd. Maruf Mostafa',
-                'TITLE:IT Specialist',
+                'N:Hasan;Md Mehedi;;;',
+                'FN:Md Mehedi Hasan',
+                'TITLE:Assistant Manager',
                 'TEL;TYPE=CELL,VOICE:+8801789562659',
                 'EMAIL;TYPE=INTERNET,HOME:banglagtavc@gmail.com',
                 'URL;TYPE=Blog:https://banglagtavicecity.blogspot.com',
@@ -201,7 +201,7 @@
                 // Create hidden anchor element to initiate download
                 const link = document.createElement('a');
                 link.href = window.URL.createObjectURL(blob);
-                link.setAttribute('download', 'Mohd_Maruf_Mostafa.vcf');
+                link.setAttribute('download', 'Md Mehedi Hasan.vcf');
                 
                 document.body.appendChild(link);
                 link.click();
